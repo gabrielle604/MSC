@@ -89,7 +89,8 @@ png(filename = "/Users/gabriellebenoit/Documents/GitHub/MSC/Output/Day1_Fig1.png
     width = 480, height = 480, units = "px", pointsize = 12)
 
 ## do you have to FIRST run the above line 88 and 89 code, and SECOND run the figure code? then it saves?
-## what does dev.off() do?
+## what does dev.off() do? 
+    ## shuts down the specified (by default the current) device
 
 mpg %>%
   ggplot(aes(transmission,hwy), group = transmission) +
